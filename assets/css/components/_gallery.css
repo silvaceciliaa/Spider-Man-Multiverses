@@ -1,0 +1,28 @@
+.gallery {
+    padding: 1rem;
+    padding-left: 0;
+  }
+  
+  .gallery ul{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .gallery ul li{
+    margin-left: 1.5rem;
+  }
+  
+  .gallery ul li:first-child{
+    margin-left: 0rem;
+  }
+  
+  .gallery ul li a img{
+    height: 16vh;
+    border-radius: 0.9rem;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .gallery ul li a img:hover,
+.gallery ul li a img.active {
+    transform: scale(1.1);
+}
