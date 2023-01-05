@@ -29,6 +29,7 @@ body::before {
 .spider-menu__item {
     display: inline-block;
     text-transform: uppercase;
+    font-weight: bold;
     margin: 0 1.25rem;
 }
 
@@ -103,6 +104,8 @@ body::before {
 
 .spider-controller__button:hover{
     transform: scale(1.1);
+    color: var(--primary-color);
+    background-color: #fff;
 }
 
 .spider-controller__line {
