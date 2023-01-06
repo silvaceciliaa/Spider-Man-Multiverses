@@ -34,7 +34,7 @@
 
   
   .spider-wrapper .spider-main-content__top {
-    height: 80vh;
+    height: 76vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -50,7 +50,7 @@
   .spider-wrapper .spider-main-content .spider-logo img{
     margin-top: 3.125rem;
     margin-left: 0;
-    margin-bottom: 1.875rem;
+    width: 90%;
   }
   
   .spider-wrapper .spider-main-content__top .spider-description{

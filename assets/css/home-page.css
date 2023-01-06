@@ -130,7 +130,7 @@ body::before {
     background-color: #FFF;
     color: var(--primary-color);
     border: 0.1875rem solid var(--primary-color);
-    outline: 0.125rem solid #FFF ;
+    outline: 0.125rem solid #FFF;
 }
 
 .spider-controller__line {
