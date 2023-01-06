@@ -17,6 +17,7 @@ a.link-button{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform 0.1s ease-in-out;
   }
   
   a.link-button .icon .play-icon{
@@ -32,3 +33,7 @@ a.link-button{
   a.link-button .label{
     margin-left: 0.4rem;
   }
+
+  a.link-button .icon:hover{
+    transform: scale(1.2);
+}
