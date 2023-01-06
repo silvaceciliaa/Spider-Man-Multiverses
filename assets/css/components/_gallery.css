@@ -18,7 +18,7 @@
 
   .gallery ul li a img{
     height: 16vh;
-    border:solid 0.15rem white;
+    border:solid 0.15rem #fff;
     border-radius: 0.9rem;
     transition: transform 0.2s ease-in-out;
   }

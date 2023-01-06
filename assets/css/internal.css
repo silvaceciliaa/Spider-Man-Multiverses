@@ -41,7 +41,7 @@
   }
   
   .spider-wrapper .spider-main-content__bottom{
-    height: 20vh;
+    height: 23vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -50,11 +50,11 @@
   .spider-wrapper .spider-main-content .spider-logo img{
     margin-top: 3.125rem;
     margin-left: 0;
-    width: 90%;
+    width: 72%;
   }
   
   .spider-wrapper .spider-main-content__top .spider-description{
-    background-color: rgba(0,0,0,.2);
+    background-color: rgba(0,0,0,.3);
     max-width: 50%;
     padding: 1.25rem;
     border-radius: 0.625rem;
@@ -91,4 +91,27 @@
     background-size: cover;
   }
 
- 
+  .spider-background-02-01 {
+    background-image: url('../images/spiderman-andrew/movie-01/background.png');
+    background-size: cover;
+  }
+
+  .spider-background-02-02 {
+    background-image: url('../images/spiderman-andrew/movie-02/background.jpg');
+    background-size: cover;
+  }
+
+  .spider-background-03-01 {
+    background-image: url('../images/spiderman-tom/movie-01/background.png');
+    background-size: cover;
+  }
+
+  .spider-background-03-02 {
+    background-image: url('../images/spiderman-tom/movie-02/background.png');
+    background-size: cover;
+  }
+
+  .spider-background-03-03 {
+    background-image: url('../images/spiderman-tom/movie-03/background.png');
+    background-size: cover;
+  }
