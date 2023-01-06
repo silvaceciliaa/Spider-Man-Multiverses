@@ -2,7 +2,7 @@
     height: 80vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     width: 100%;
     position: relative; 
 }
@@ -27,7 +27,7 @@
     width:  2.8rem;
     height: 2.8rem;
     border-radius: 50%;
-    background-color: var(--primary-color);
+    background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,9 +36,10 @@
 
 .navigator .button-active{
     background-color: #FFF;
-    color: var(--primary-color);
-    border: 0.1875rem solid var(--primary-color);
+    color: #000;
+    border: 0.1875rem solid #000;
     outline: 0.125rem solid #FFF;
+    
 }
 
 .navigator::before {
@@ -46,13 +47,14 @@
     position: absolute;
     top: 0; 
     width: 0.125rem;
-    height: 65%;
+    height: 100%;
     background-color: #fff;
 }
 
+
 .navigator ul li a:hover {
     transform: scale(1.1);
-    color: var(--primary-color);
+    color: #000;
     background-color: #fff;
 }
 
