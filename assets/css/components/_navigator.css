@@ -34,19 +34,23 @@
     transition: transform 0.2s ease-in-out;
 }
 
-
+.navigator .button-active{
+    background-color: #FFF;
+    color: var(--primary-color);
+    border: 0.1875rem solid var(--primary-color);
+    outline: 0.125rem solid #FFF;
+}
 
 .navigator::before {
     content: "";
     position: absolute;
     top: 0; 
     width: 0.125rem;
-    height: 70%;
+    height: 65%;
     background-color: #fff;
 }
 
-.navigator ul li a:hover,
-.navigator ul li a.active {
+.navigator ul li a:hover {
     transform: scale(1.1);
     color: var(--primary-color);
     background-color: #fff;
